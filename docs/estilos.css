@@ -2,6 +2,26 @@ h1{
     color:aliceblue
 }
 
+
 body{
     background-color: #1A237E;
+}
+
+a:link{
+    color: bisque;
+    text-decoration: none;
+}
+
+a:visited{
+    color:aqua;
+    text-decoration: none;
+}
+
+a:hover{
+    color:chartreuse;
+    text-decoration: underline;
+}
+
+a:active{
+    color: brown;
 }
