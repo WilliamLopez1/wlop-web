@@ -10,8 +10,8 @@ section{
 
 section:nth-child(2){
     background: #FFFFFF;
-
 }
+
 
 .texto{
     position: relative;
@@ -26,7 +26,7 @@ html{
 }
 
 
-section h1{
+h1{
     color:aliceblue;
     font-family: monospace;
     font-size: 2.5em;
@@ -36,6 +36,10 @@ section h1{
     left: 50%;
     transform: translateX(-50%) translateY(-65%);
 }
+
+/*h1:nth-child(2){
+    color:#0C192C;
+}*/
 
 
 h2{
@@ -49,6 +53,15 @@ h2{
     transform: translateX(-50%) translateY(-70%);
 }
 
+
+
+header{
+    background-color: #0C192C;
+    font-family: monospace;
+    text-align: center;
+    margin: 0px;
+    font-size: 2.5em;
+}
 
 body{
     min-height: 100vh;
@@ -75,7 +88,7 @@ body{
     height: 20px;
     background: #00E0C6;
     margin: 0 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 0 0 5px #00E0C644,
     0 0 25px #00E0C6,
     0 0 5px #00E0C6;
@@ -112,14 +125,12 @@ a:link, a:visited{
     text-decoration: none;
     top: 75%;
     left: 50%;
-    transform: translateX(-50%) translateY(-75%);
 }
 
 
 a:hover{
-    background-color: #c053af;
-    color:white;
-    text-decoration: noce;
+    color: #FF2D75;
+    text-decoration: none;
 }
 
 a:active{
