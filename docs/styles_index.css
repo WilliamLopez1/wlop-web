@@ -8,10 +8,6 @@ section{
     height: 760px;
 }
 
-section:nth-child(2){
-    background: #FFFFFF;
-}
-
 
 .texto{
     position: relative;
@@ -56,10 +52,13 @@ h2{
 
 
 header{
+    width: 100%;
+    overflow: hidden;
     background-color: #0C192C;
+    border-bottom-color: #00E0C6;
     font-family: monospace;
     text-align: center;
-    margin: 0px;
+    margin-bottom: 20px;
     font-size: 2.5em;
 }
 
@@ -98,10 +97,10 @@ body{
 
 
 /*.bubbles span:nth-child(even){
-    background: #FF2D75;
-    box-shadow: 0 0 0 5px #FF2D7544,
-    0 0 25px #FF2D75,
-    0 0 5px #FF2D75;
+    background: #FFFFFF;
+    box-shadow: 0 0 0 5px #FFFFFF44,
+    0 0 25px #FFFFFF,
+    0 0 5px #FFFFFF;
 }*/
 
 @keyframes animate{
@@ -110,7 +109,8 @@ body{
     }
     100%
     {
-        transform: translateY(-10vh) scale(0.7); 
+        transform: translateY(-10vh) scale(0.2); 
+
         background-color: #FFFFFF; 
         box-shadow: 0 0 0 5px #FFFFFF44;   
     }
