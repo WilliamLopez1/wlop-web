@@ -33,10 +33,12 @@ h1{
     transform: translateX(-50%) translateY(-65%);
 }
 
-@media screen and (min-width: 600px)
-h1 {
-    font-size: 12pt;
+@media screen and (max-width: 1000px){
+    h1{
+        font-size: 12pt;
+    }
 }
+
 
 
 h2{
@@ -48,6 +50,12 @@ h2{
     top: 70%;
     left: 50%;
     transform: translateX(-50%) translateY(-70%);
+}
+
+@media screen and (max-width: 1000px){
+    h2{
+        font-size: 12pt;
+    }
 }
 
 
