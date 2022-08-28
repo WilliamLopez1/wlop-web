@@ -33,9 +33,10 @@ h1{
     transform: translateX(-50%) translateY(-65%);
 }
 
-/*h1:nth-child(2){
-    color:#0C192C;
-}*/
+@media screen and (min-width: 600px)
+h1 {
+    font-size: 12pt;
+}
 
 
 h2{
